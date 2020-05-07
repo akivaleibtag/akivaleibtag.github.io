@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <script>
+       
+       
+       var crash = new Audio();
+crash.src = "Crash-Cymbal-Hit-C-www.fesliyanstudios.com.mp3";
+       var hihat = new Audio();
+hihat.src = "Hi-Hat-Closed-Hit-C1-www.fesliyanstudios.com.mp3";
+       var snare = new Audio();
+snare.src = "Snare-Drum-Hit-Level-5a-www.fesliyanstudios.com.mp3";
+       var bass = new Audio();
+bass.src = "Bass-Drum-Hit-Level-6c-www.fesliyanstudios.com.mp3";
+       var tomone = new Audio();
+tomone.src = "Small-Tom-Drum-Hit-Level-3B-www.fesliyanstudios.com.mp3";
+       var tomtwo = new Audio();
+tomtwo.src = "Medium-Tom-Drum-Hit-Level-3B-www.fesliyanstudios.com.mp3";
+       var tomthree = new Audio();
+tomthree.src = "Floor-Tom-Drum-Hit-Level-3B-www.fesliyanstudios.com.mp3";
+       var ride = new Audio();
+ride.src = "Ride-Cymbal-Hit-C-www.fesliyanstudios.com.mp3";
+    
+</script> 
+   
+<style type="text/css">
+    .hero-image {
+  background-image:  url("https://i.ibb.co/NrfpTgt/6448.jpg");
+  background-color: #cccccc;
+  height:800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin:20px;
+    }
+    
+    
+    
+    .crashCym{border: 20px solid #666;
+    position: absolute;
+        top:10px;
+        left:35px;
+       opacity: 0.0;
+        width: 22%;
+        height:28%;
+    }.hihatCym{border: 20px solid #666;
+    position: absolute;
+        top:250px;
+        left:35px;
+       opacity: 0.0;
+        width: 22%;
+        height:28%;
+    }
+    .snareDrum{border: 20px solid #666;
+    position: absolute;
+        bottom:35px;
+        left:100px;
+       opacity: 0.0;
+        width: 24%;
+        height:28%;
+    }
+      .bassDrum{border: 20px solid #666;
+    position: absolute;
+        bottom:0px;
+        left:550px;
+       opacity: 0.0;
+        width: 24%;
+        height:28%;
+    }
+    .ttoneDrum{border: 20px solid #666;
+    position: absolute;
+        top:120px;
+        left:430px;
+       opacity: 0.0;
+        width: 18%;
+        height:26%;
+    }
+    .tttwoDrum{border: 20px solid #666;
+    position: absolute;
+        top:120px;
+        left:700px;
+       opacity: 0.0;
+        width: 22%;
+        height:26%;
+    }
+    .ttthreeDrum{border: 20px solid #666;
+    position: absolute;
+        bottom:70px;
+        right:35px;
+       opacity: 0.0;
+        width: 26%;
+        height:30%;
+    }
+    .rideCym{border: 20px solid #666;
+    position: absolute;
+        top:0px;
+        right:35px;
+       opacity: 0.0;
+        width: 22%;
+        height:35%;
+    }
+  
+    .Wearethechampions{background:rgb(0,200,200);
+        opacity:0.5;
+        position:absolute;
+        z-index: 2;
+        width:27%;
+        left:500px;
+        top:50px;
+            
+     }  
+    .done{
+        font-family: helvetica; 
+    }
+    
+    
+    .dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+    top:10px;
+    right:30px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+    
+  
+  
+
+
+</style>
+
+</head>
+<body>
+   <div class = "Wearethechampions"> <p class="done">For best results: use a large screen, as a small one like a phone or iPad will not work. Click in the center of the drum or cymbal.</p></div>
+    <div class="hero-image"></div>
+     <div  onmousedown="crash.play()" class="crashCym"></div>
+    <div  onmousedown="hihat.play()" class="hihatCym"></div>
+    <div  onmousedown="snare.play()" class="snareDrum"></div>
+    <div  onmousedown="bass.play()" class="bassDrum"></div>
+    <div  onmousedown="tomone.play()" class="ttoneDrum"></div>
+    <div  onmousedown="tomtwo.play()" class="tttwoDrum"></div>
+    <div  onmousedown="tomthree.play()" class="ttthreeDrum"></div>
+    <div  onmousedown="ride.play()" class="rideCym"></div>
+    
+    <div class="dropdown">
+  <button class="dropbtn">Go to:</button>
+  <div class="dropdown-content">
+    <a href="index.html">Home</a>
+    <a href="https://www.libertyparkmusic.com/beginners-guide-acoustic-drums/">The Drum Set</a>
+    <a href="http://penz4.tripod.com/historyofdrums.html">History</a>
+  </div>
+</div>
+    
+
+</body>
+</html>
